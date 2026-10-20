@@ -4,7 +4,7 @@
 
 A small single-player mod for **Mount & Blade II: Bannerlord 1.4.8**. The base game leaves two things to chance, and Fair Loot ties both to what actually happened on the field: **what you take home** after a battle, and **who dies** in it.
 
-By **Igore4eck** (Ihor Prokofiev). Source: [github.com/Igore4eck/FairLoot](https://github.com/Igore4eck/FairLoot). Українська версія: [README_UK.md](README_UK.md).
+By **Igore4eck** (Ihor Prokofiev). Download: [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14144) · Source: [github.com/Igore4eck/FairLoot](https://github.com/Igore4eck/FairLoot). Українська версія: [README_UK.md](README_UK.md).
 
 ---
 

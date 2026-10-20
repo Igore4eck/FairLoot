@@ -4,7 +4,7 @@
 
 Невеликий мод для одиночної гри **Mount & Blade II: Bannerlord 1.4.8**. Дві речі, які базова гра віддає випадку, він прив'язує до того, що справді сталося на полі бою: **що ти забираєш додому** після битви і **хто в ній гине**.
 
-Автор: **Igore4eck** (Ігор Прокоф'єв). Код: [github.com/Igore4eck/FairLoot](https://github.com/Igore4eck/FairLoot). English version: [README.md](README.md).
+Автор: **Igore4eck** (Ігор Прокоф'єв). Завантажити: [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14144) · Код: [github.com/Igore4eck/FairLoot](https://github.com/Igore4eck/FairLoot). English version: [README.md](README.md).
 
 ---
 
