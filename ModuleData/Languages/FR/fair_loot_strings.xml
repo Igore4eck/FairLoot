@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="Divers" />
+    <string id="fairloot_mcm_welcome" text="Message de bienvenue" />
+    <string id="fairloot_mcm_welcome_hint" text="Affiche un bref aperçu du mod au début d&apos;une nouvelle campagne." />
+    <string id="fairloot_personal_items" text="Objets reçus pour votre contribution personnelle à la bataille : {COUNT}." />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="Butin" />
+    <string id="fairloot_mcm_loot_share" text="Butin ordinaire conservé" />
+    <string id="fairloot_mcm_loot_share_hint" text="Part du butin ordinaire conservée après la bataille. 50 % signifie que la moitié des objets est retirée. Votre butin personnel s&apos;y ajoute." />
+    <string id="fairloot_mcm_personal" text="Butin personnel" />
+    <string id="fairloot_mcm_personal_hint" text="Après une victoire, vous recevez tout l&apos;équipement de chaque ennemi que vous avez tué vous-même, cheval et harnais compris. Les assommés, les alliés et les engins de siège ne comptent pas." />
+    <string id="fairloot_mcm_group_death" text="Mort au combat" />
+    <string id="fairloot_mcm_death" text="Le coup final décide de la mort" />
+    <string id="fairloot_mcm_death_hint" text="Le risque de mourir dépend des dégâts du dernier coup : les coups faibles assomment surtout, les forts tuent plus souvent. La médecine et les atouts fixent toujours la chance de base." />
+    <string id="fairloot_mcm_lethal" text="Dégâts de mort certaine" />
+    <string id="fairloot_mcm_lethal_hint" text="Un coup final infligeant au moins ces dégâts tue toujours, même les seigneurs qui ne peuvent normalement pas mourir." />
+    <string id="fairloot_mcm_player" text="S&apos;applique à votre héros" />
+    <string id="fairloot_mcm_player_hint" text="Désactivé, votre héros garde les règles de mort standard du jeu et n&apos;est pas affecté par Fair Loot." />
+    <string id="fairloot_welcome_ok" text="Compris" />
+    <string id="fairloot_welcome_body" text="Fair Loot : le butin revient à ceux qui l&apos;ont mérité, et la mort à ceux qui se sont découverts.{newline}{newline}• Le butin ordinaire après une bataille est réduit (de moitié par défaut) : le convoi n&apos;est pas extensible, et les soldats aussi veulent manger.{newline}• Tout ce que portaient les ennemis que vous avez tués vous-même est à vous : armes, armure, cheval et harnais. Vous voulez des plaques ? Retirez-les vous-même à leur propriétaire.{newline}• La mort dépend du coup final : un coup faible laisse plus souvent la victime en vie, un coup fort tue plus souvent. Un coup de {LETHAL} dégâts ou plus est mortel pour tous, seigneurs compris.{newline}• Les assommés et les victimes des alliés ou des engins de siège ne comptent pas pour le butin personnel : les exploits des autres ne sont pas les vôtres.{newline}{newline}Réglages : Mod Options → Fair Loot. Vous pouvez aussi y épargner ces règles à votre héros, si vous avez pitié de lui.{newline}Détails : dossier du mod Modules/FairLoot, fichier README.md.{newline}{newline}Pillez honnêtement. Mourez avec panache." />
+    <string id="fairloot_mcm_leave" text="Quitter le champ et regarder" />
+    <string id="fairloot_mcm_leave_hint" text="Passé la ligne rouge, votre héros quitte le champ vivant ; la bataille continue sous l’IA, vous regardez." />
+    <string id="fairloot_left_field" text="Vous avez quitté le champ de bataille. La bataille continue sous le commandement de l’IA ; Tab ouvre le tableau avec avance rapide et fin de bataille." />
+  </strings>
+</base>

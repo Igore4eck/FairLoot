@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="Sonstiges" />
+    <string id="fairloot_mcm_welcome" text="Willkommensnachricht" />
+    <string id="fairloot_mcm_welcome_hint" text="Zeigt beim Start einer neuen Kampagne eine kurze Übersicht der Mod." />
+    <string id="fairloot_personal_items" text="Gegenstände für deinen persönlichen Beitrag zur Schlacht: {COUNT}." />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="Beute" />
+    <string id="fairloot_mcm_loot_share" text="Behaltene gewöhnliche Beute" />
+    <string id="fairloot_mcm_loot_share_hint" text="Anteil der gewöhnlichen Beute nach der Schlacht, der erhalten bleibt. 50 % heißt, die Hälfte der Gegenstände wird entfernt. Deine persönliche Beute kommt obendrauf." />
+    <string id="fairloot_mcm_personal" text="Persönliche Beute" />
+    <string id="fairloot_mcm_personal_hint" text="Nach einem Sieg erhältst du die gesamte Ausrüstung jedes Gegners, den du selbst getötet hast, samt Pferd und Geschirr. Bewusstlose, Verbündete und Belagerungsgeräte zählen nicht." />
+    <string id="fairloot_mcm_group_death" text="Tod im Kampf" />
+    <string id="fairloot_mcm_death" text="Der letzte Schlag entscheidet" />
+    <string id="fairloot_mcm_death_hint" text="Die Todeschance hängt vom Schaden des letzten Treffers ab: Schwache Schläge betäuben meist, starke töten häufiger. Medizin und Talente bestimmen weiterhin die Grundchance." />
+    <string id="fairloot_mcm_lethal" text="Schaden für sicheren Tod" />
+    <string id="fairloot_mcm_lethal_hint" text="Ein letzter Schlag mit mindestens diesem Schaden tötet immer, auch Lords, die sonst nicht sterben können." />
+    <string id="fairloot_mcm_player" text="Gilt für deinen Helden" />
+    <string id="fairloot_mcm_player_hint" text="Wenn aus, gelten für deinen Helden die normalen Todesregeln des Spiels; Fair Loot wirkt nicht auf ihn." />
+    <string id="fairloot_welcome_ok" text="Verstanden" />
+    <string id="fairloot_welcome_body" text="Fair Loot: Die Beute gehört denen, die sie verdient haben, und der Tod denen, die sich eine Blöße gegeben haben.{newline}{newline}• Die gewöhnliche Beute nach der Schlacht wird gekürzt (standardmäßig halbiert): Der Tross ist nicht unendlich, und die Soldaten wollen auch essen.{newline}• Alles, was von dir selbst getötete Gegner trugen, gehört dir: Waffen, Rüstung, Pferd samt Geschirr. Willst du Platte? Zieh sie ihrem Besitzer selbst aus.{newline}• Der Tod hängt vom letzten Schlag ab: Ein schwacher lässt das Opfer öfter am Leben, ein starker tötet öfter. Ein Schlag mit {LETHAL} Schaden oder mehr ist für alle tödlich, auch für Lords.{newline}• Bewusstlose sowie Tötungen durch Verbündete oder Belagerungsgeräte zählen nicht zur persönlichen Beute: Fremde Heldentaten sind nicht deine.{newline}{newline}Einstellungen: Mod Options → Fair Loot. Dort kannst du auch deinen eigenen Helden von diesen Regeln ausnehmen, falls er dir leidtut.{newline}Details: Mod-Ordner Modules/FairLoot, Datei README.md.{newline}{newline}Plündere fair. Stirb spektakulär." />
+    <string id="fairloot_mcm_leave" text="Feld verlassen und zusehen" />
+    <string id="fairloot_mcm_leave_hint" text="Hinter der roten Linie verlässt dein Held lebend das Feld; die KI kämpft weiter, du schaust zu." />
+    <string id="fairloot_left_field" text="Du hast das Schlachtfeld verlassen. Die Schlacht geht unter KI-Befehl weiter; Tab öffnet die Übersicht mit Vorspulen und Schlachtende." />
+  </strings>
+</base>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="その他" />
+    <string id="fairloot_mcm_welcome" text="ようこそメッセージ" />
+    <string id="fairloot_mcm_welcome_hint" text="新しいキャンペーン開始時にMODの簡単な紹介を表示します。" />
+    <string id="fairloot_personal_items" text="戦闘での個人的な貢献で得たアイテム：{COUNT}" />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="戦利品" />
+    <string id="fairloot_mcm_loot_share" text="残る通常の戦利品" />
+    <string id="fairloot_mcm_loot_share_hint" text="戦闘後の通常の戦利品が残る割合。50%なら半分のアイテムが取り除かれます。個人の戦利品はこれとは別に加わります。" />
+    <string id="fairloot_mcm_personal" text="個人の戦利品" />
+    <string id="fairloot_mcm_personal_hint" text="勝利後、自分で倒した敵の装備をすべて得ます。馬と馬具も含みます。気絶、味方による撃破、攻城兵器による撃破は対象外です。" />
+    <string id="fairloot_mcm_group_death" text="戦闘での死" />
+    <string id="fairloot_mcm_death" text="最後の一撃が生死を決める" />
+    <string id="fairloot_mcm_death_hint" text="死亡率は最後の一撃のダメージで決まります。弱い攻撃はたいてい気絶で済み、強い攻撃ほど死にやすくなります。基本確率は引き続き医術とパークで決まります。" />
+    <string id="fairloot_mcm_lethal" text="確実な死のダメージ" />
+    <string id="fairloot_mcm_lethal_hint" text="最後の一撃がこのダメージ以上なら必ず死亡します。通常は死なない領主も例外ではありません。" />
+    <string id="fairloot_mcm_player" text="自分の主人公にも適用" />
+    <string id="fairloot_mcm_player_hint" text="オフにすると、主人公にはゲーム標準の死亡ルールが適用され、Fair Loot の影響を受けません。" />
+    <string id="fairloot_welcome_ok" text="了解" />
+    <string id="fairloot_welcome_body" text="Fair Loot：戦利品はそれを勝ち取った者に、死は隙を見せた者に。{newline}{newline}• 戦闘後の通常の戦利品は減ります（初期設定では半分）。輜重の荷車は無限ではなく、兵士たちも食べなければなりません。{newline}• 自分で倒した敵が身につけていた物はすべてあなたのもの：武器、鎧、馬と馬具。板金鎧が欲しい？持ち主から自分で剥ぎ取りましょう。{newline}• 死は最後の一撃で決まります。弱い一撃ほど相手は生き延びやすく、強い一撃ほど死にやすくなります。{LETHAL}以上のダメージの一撃は、領主を含む全員にとって致命的です。{newline}• 気絶や、味方・攻城兵器による撃破は個人の戦利品になりません。他人の手柄はあなたのものではありません。{newline}{newline}設定：Mod Options → Fair Loot。気の毒なら、自分の主人公をこのルールから外すこともできます。{newline}詳細：MODフォルダ Modules/FairLoot の README.md。{newline}{newline}略奪は公正に。死に様は派手に。" />
+    <string id="fairloot_mcm_leave" text="戦場を離れて観戦" />
+    <string id="fairloot_mcm_leave_hint" text="赤い線を越えると英雄は生きたまま戦場を離れ、戦いはAIで続き、あなたは観戦します。" />
+    <string id="fairloot_left_field" text="戦場を離れた。戦いはAIの指揮で続く。Tabでスコアボードを開き、早送りや戦闘終了ができる。" />
+  </strings>
+</base>

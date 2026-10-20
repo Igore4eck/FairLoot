@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="Inne" />
+    <string id="fairloot_mcm_welcome" text="Wiadomość powitalna" />
+    <string id="fairloot_mcm_welcome_hint" text="Pokazuje krótki opis moda na starcie nowej kampanii." />
+    <string id="fairloot_personal_items" text="Przedmioty otrzymane za osobisty wkład w bitwę: {COUNT}." />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="Łupy" />
+    <string id="fairloot_mcm_loot_share" text="Zachowane zwykłe łupy" />
+    <string id="fairloot_mcm_loot_share_hint" text="Jaka część zwykłych łupów po bitwie zostaje. 50% oznacza, że połowa przedmiotów znika. Twoje osobiste łupy dochodzą do tego." />
+    <string id="fairloot_mcm_personal" text="Osobiste łupy" />
+    <string id="fairloot_mcm_personal_hint" text="Po zwycięstwie dostajesz cały ekwipunek każdego wroga zabitego przez ciebie osobiście, łącznie z koniem i uprzężą. Ogłuszeni, zabici przez sojuszników i machiny oblężnicze się nie liczą." />
+    <string id="fairloot_mcm_group_death" text="Śmierć w bitwie" />
+    <string id="fairloot_mcm_death" text="Ostatni cios decyduje o śmierci" />
+    <string id="fairloot_mcm_death_hint" text="Szansa na śmierć zależy od obrażeń ostatniego ciosu: słabe ciosy zwykle ogłuszają, silne częściej zabijają. Szansę bazową nadal ustalają medycyna i atuty." />
+    <string id="fairloot_mcm_lethal" text="Obrażenia pewnej śmierci" />
+    <string id="fairloot_mcm_lethal_hint" text="Ostatni cios zadający co najmniej tyle obrażeń zawsze zabija, nawet lordów, którzy normalnie nie mogą zginąć." />
+    <string id="fairloot_mcm_player" text="Dotyczy twojego bohatera" />
+    <string id="fairloot_mcm_player_hint" text="Gdy wyłączone, twój bohater podlega standardowym zasadom śmierci gry, a Fair Loot go nie dotyczy." />
+    <string id="fairloot_welcome_ok" text="Rozumiem" />
+    <string id="fairloot_welcome_body" text="Fair Loot: łupy trafiają do tych, którzy na nie zasłużyli, a śmierć do tych, którzy się odsłonili.{newline}{newline}• Zwykłe łupy po bitwie są zmniejszone (domyślnie o połowę): tabor nie jest z gumy, a żołnierze też chcą jeść.{newline}• Wszystko, co mieli na sobie wrogowie zabici przez ciebie osobiście, jest twoje: broń, zbroja, koń z uprzężą. Chcesz płyt? Zdejmij je z właściciela sam.{newline}• Śmierć zależy od ostatniego ciosu: słaby częściej pozostawia ofiarę przy życiu, silny częściej zabija. Cios zadający {LETHAL} obrażeń lub więcej jest śmiertelny dla każdego, także dla lordów.{newline}• Ogłuszeni oraz zabici przez sojuszników albo machiny oblężnicze nie liczą się do osobistych łupów: cudze wyczyny nie są twoje.{newline}{newline}Ustawienia: Mod Options → Fair Loot. Tam też możesz zwolnić swojego bohatera z tych zasad, jeśli ci go żal.{newline}Szczegóły: folder moda Modules/FairLoot, plik README.md.{newline}{newline}Łup uczciwie. Giń efektownie." />
+    <string id="fairloot_mcm_leave" text="Opuść pole i obserwuj" />
+    <string id="fairloot_mcm_leave_hint" text="Za czerwoną linią twój bohater żywy opuszcza pole; bitwa trwa pod SI, a ty patrzysz." />
+    <string id="fairloot_left_field" text="Opuściłeś pole bitwy. Bitwa trwa pod dowództwem SI; Tab otwiera tablicę z przewijaniem i zakończeniem bitwy." />
+  </strings>
+</base>

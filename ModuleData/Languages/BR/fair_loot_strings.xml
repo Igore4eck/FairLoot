@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="Outros" />
+    <string id="fairloot_mcm_welcome" text="Mensagem de boas-vindas" />
+    <string id="fairloot_mcm_welcome_hint" text="Mostra um breve resumo do mod ao iniciar uma nova campanha." />
+    <string id="fairloot_personal_items" text="Itens recebidos pela sua contribuição pessoal na batalha: {COUNT}." />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="Saque" />
+    <string id="fairloot_mcm_loot_share" text="Saque comum mantido" />
+    <string id="fairloot_mcm_loot_share_hint" text="Parte do saque comum após a batalha que permanece. 50% significa que metade dos itens é removida. Seu saque pessoal é somado a isso." />
+    <string id="fairloot_mcm_personal" text="Saque pessoal" />
+    <string id="fairloot_mcm_personal_hint" text="Após uma vitória, você recebe todo o equipamento de cada inimigo que matou pessoalmente, incluindo cavalo e arreios. Nocautes, aliados e máquinas de cerco não contam." />
+    <string id="fairloot_mcm_group_death" text="Morte em batalha" />
+    <string id="fairloot_mcm_death" text="O golpe final decide a morte" />
+    <string id="fairloot_mcm_death_hint" text="A chance de morrer depende do dano do último golpe: golpes fracos geralmente nocauteiam, fortes matam com mais frequência. Medicina e vantagens ainda definem a chance base." />
+    <string id="fairloot_mcm_lethal" text="Dano de morte certa" />
+    <string id="fairloot_mcm_lethal_hint" text="Um golpe final com pelo menos este dano sempre mata, até lordes que normalmente não podem morrer." />
+    <string id="fairloot_mcm_player" text="Aplicar ao seu herói" />
+    <string id="fairloot_mcm_player_hint" text="Desligado, seu herói segue as regras de morte padrão do jogo e não é afetado pelo Fair Loot." />
+    <string id="fairloot_welcome_ok" text="Entendi" />
+    <string id="fairloot_welcome_body" text="Fair Loot: o espólio vai para quem o mereceu, e a morte para quem se expôs.{newline}{newline}• O saque comum após a batalha é reduzido (por padrão, pela metade): a carroça de suprimentos não é infinita, e os soldados também querem comer.{newline}• Tudo o que os inimigos mortos por você usavam é seu: armas, armadura, o cavalo e os arreios. Quer placas? Tire-as do dono você mesmo.{newline}• A morte depende do golpe final: um fraco costuma deixar a vítima viva, um forte mata com mais frequência. Um golpe de {LETHAL} de dano ou mais é fatal para todos, inclusive lordes.{newline}• Nocautes e mortes causadas por aliados ou máquinas de cerco não contam para o saque pessoal: façanhas alheias não são suas.{newline}{newline}Configurações: Mod Options → Fair Loot. Lá também dá para poupar seu herói dessas regras, se tiver pena.{newline}Detalhes: pasta do mod Modules/FairLoot, arquivo README.md.{newline}{newline}Saqueie com justiça. Morra com estilo." />
+    <string id="fairloot_mcm_leave" text="Deixar o campo e assistir" />
+    <string id="fairloot_mcm_leave_hint" text="Além da linha vermelha seu herói deixa o campo vivo; a batalha segue com a IA e você assiste." />
+    <string id="fairloot_left_field" text="Você deixou o campo de batalha. A batalha continua sob o comando da IA; Tab abre o placar com avanço rápido e fim da batalha." />
+  </strings>
+</base>

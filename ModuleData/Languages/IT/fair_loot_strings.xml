@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="Varie" />
+    <string id="fairloot_mcm_welcome" text="Messaggio di benvenuto" />
+    <string id="fairloot_mcm_welcome_hint" text="Mostra una breve panoramica della mod all&apos;inizio di una nuova campagna." />
+    <string id="fairloot_personal_items" text="Oggetti ricevuti per il tuo contributo personale alla battaglia: {COUNT}." />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="Bottino" />
+    <string id="fairloot_mcm_loot_share" text="Bottino ordinario mantenuto" />
+    <string id="fairloot_mcm_loot_share_hint" text="Quota del bottino ordinario che resta dopo la battaglia. 50% significa che metà degli oggetti viene rimossa. Il tuo bottino personale si aggiunge a questo." />
+    <string id="fairloot_mcm_personal" text="Bottino personale" />
+    <string id="fairloot_mcm_personal_hint" text="Dopo una vittoria ottieni tutto l&apos;equipaggiamento di ogni nemico ucciso da te, cavallo e bardatura compresi. Tramortiti, alleati e macchine d&apos;assedio non contano." />
+    <string id="fairloot_mcm_group_death" text="Morte in battaglia" />
+    <string id="fairloot_mcm_death" text="Il colpo finale decide la morte" />
+    <string id="fairloot_mcm_death_hint" text="La probabilità di morire dipende dai danni dell&apos;ultimo colpo: i colpi deboli di solito tramortiscono, quelli forti uccidono più spesso. Medicina e talenti determinano ancora la probabilità base." />
+    <string id="fairloot_mcm_lethal" text="Danno di morte certa" />
+    <string id="fairloot_mcm_lethal_hint" text="Un colpo finale di almeno questi danni uccide sempre, anche i lord che di solito non possono morire." />
+    <string id="fairloot_mcm_player" text="Vale per il tuo eroe" />
+    <string id="fairloot_mcm_player_hint" text="Se disattivato, il tuo eroe segue le normali regole di morte del gioco e Fair Loot non lo influenza." />
+    <string id="fairloot_welcome_ok" text="Capito" />
+    <string id="fairloot_welcome_body" text="Fair Loot: il bottino va a chi se lo è guadagnato, e la morte a chi si è scoperto.{newline}{newline}• Il bottino ordinario dopo la battaglia è ridotto (di default della metà): le salmerie non sono infinite e anche i soldati vogliono mangiare.{newline}• Tutto ciò che indossavano i nemici uccisi da te è tuo: armi, armatura, cavallo e bardatura. Vuoi le piastre? Toglile al proprietario da solo.{newline}• La morte dipende dal colpo finale: uno debole lascia più spesso in vita la vittima, uno forte uccide più spesso. Un colpo da {LETHAL} danni o più è fatale per tutti, lord compresi.{newline}• I tramortiti e le uccisioni di alleati o macchine d&apos;assedio non contano per il bottino personale: le imprese altrui non sono tue.{newline}{newline}Impostazioni: Mod Options → Fair Loot. Lì puoi anche risparmiare queste regole al tuo eroe, se ti dispiace per lui.{newline}Dettagli: cartella della mod Modules/FairLoot, file README.md.{newline}{newline}Saccheggia onestamente. Muori in modo spettacolare." />
+    <string id="fairloot_mcm_leave" text="Lascia il campo e guarda" />
+    <string id="fairloot_mcm_leave_hint" text="Oltre la linea rossa il tuo eroe lascia il campo vivo; la battaglia prosegue con l’IA, tu guardi." />
+    <string id="fairloot_left_field" text="Hai lasciato il campo di battaglia. La battaglia continua sotto il comando dell’IA; Tab apre il riepilogo con avanzamento rapido e fine battaglia." />
+  </strings>
+</base>

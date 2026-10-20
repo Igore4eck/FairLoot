@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="Прочее" />
+    <string id="fairloot_mcm_welcome" text="Приветствие" />
+    <string id="fairloot_mcm_welcome_hint" text="Показывать краткое описание мода при старте новой кампании." />
+    <string id="fairloot_personal_items" text="Предметы за личный вклад в бой: {COUNT}." />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="Добыча" />
+    <string id="fairloot_mcm_loot_share" text="Сколько обычной добычи остаётся" />
+    <string id="fairloot_mcm_loot_share_hint" text="Какая доля обычной добычи после боя остаётся. 50% — половина предметов убирается. Личная добыча добавляется сверху." />
+    <string id="fairloot_mcm_personal" text="Личная добыча" />
+    <string id="fairloot_mcm_personal_hint" text="После победы вы получаете всё снаряжение врагов, убитых лично вами, включая коня и сбрую. Оглушённые, убитые союзниками и осадными орудиями не считаются." />
+    <string id="fairloot_mcm_group_death" text="Смерть в бою" />
+    <string id="fairloot_mcm_death" text="Последний удар решает судьбу" />
+    <string id="fairloot_mcm_death_hint" text="Шанс смерти зависит от урона последнего удара: слабые удары чаще оглушают, сильные чаще убивают. Базовый шанс по-прежнему задают медицина и перки." />
+    <string id="fairloot_mcm_lethal" text="Урон верной смерти" />
+    <string id="fairloot_mcm_lethal_hint" text="Последний удар с таким уроном или больше убивает всегда — даже лордов, которые обычно не могут погибнуть." />
+    <string id="fairloot_mcm_player" text="Действует на вашего героя" />
+    <string id="fairloot_mcm_player_hint" text="Если выключено, для вашего героя действуют стандартные правила смерти игры, Fair Loot его не трогает." />
+    <string id="fairloot_welcome_ok" text="Понятно" />
+    <string id="fairloot_welcome_body" text="Fair Loot: добыча достаётся тем, кто её заработал, а смерть — тем, кто подставился.{newline}{newline}• Обычная добыча после боя урезана (по умолчанию вдвое): обоз не резиновый, а солдаты тоже хотят есть.{newline}• Всё, что было на врагах, убитых лично вами, — ваше: оружие, броня, конь со сбруей. Хотите латы — снимите их с владельца сами.{newline}• Смерть зависит от последнего удара: слабый чаще оставляет в живых, сильный чаще убивает. Удар от {LETHAL} урона смертелен для всех, лорды не исключение.{newline}• Оглушённые и убитые союзниками или осадными орудиями в личную добычу не идут: чужие подвиги не засчитываются.{newline}{newline}Настройки: Mod Options → Fair Loot. Там же можно освободить своего героя от этих правил, если жалко.{newline}Подробности: папка мода Modules/FairLoot, файл README.md (или README_UK.md).{newline}{newline}Лутайте честно. Умирайте эффектно." />
+    <string id="fairloot_mcm_leave" text="Уйти с поля и наблюдать" />
+    <string id="fairloot_mcm_leave_hint" text="За красной линией герой покидает поле живым; бой идёт под ИИ, вы наблюдаете." />
+    <string id="fairloot_left_field" text="Вы покинули поле боя. Бой продолжается под командой ИИ; Tab — табло с перемоткой и завершением боя." />
+  </strings>
+</base>

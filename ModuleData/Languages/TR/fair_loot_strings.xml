@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="Diğer" />
+    <string id="fairloot_mcm_welcome" text="Karşılama mesajı" />
+    <string id="fairloot_mcm_welcome_hint" text="Yeni bir sefer başladığında modun kısa bir tanıtımını gösterir." />
+    <string id="fairloot_personal_items" text="Savaştaki kişisel katkın için alınan eşyalar: {COUNT}." />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="Ganimet" />
+    <string id="fairloot_mcm_loot_share" text="Kalan sıradan ganimet" />
+    <string id="fairloot_mcm_loot_share_hint" text="Savaştan sonra kalan sıradan ganimet oranı. %50, eşyaların yarısının kaldırılması demektir. Kişisel ganimetin bunun üstüne eklenir." />
+    <string id="fairloot_mcm_personal" text="Kişisel ganimet" />
+    <string id="fairloot_mcm_personal_hint" text="Zaferden sonra bizzat öldürdüğün her düşmanın tüm teçhizatını, at ve koşum takımı dahil alırsın. Bayıltılanlar, müttefik ve kuşatma aleti öldürmeleri sayılmaz." />
+    <string id="fairloot_mcm_group_death" text="Savaşta ölüm" />
+    <string id="fairloot_mcm_death" text="Son darbe ölümü belirler" />
+    <string id="fairloot_mcm_death_hint" text="Ölme şansı son darbenin hasarına bağlıdır: zayıf darbeler çoğunlukla bayıltır, güçlüler daha sık öldürür. Temel şansı hâlâ tıp ve yetenekler belirler." />
+    <string id="fairloot_mcm_lethal" text="Kesin ölüm hasarı" />
+    <string id="fairloot_mcm_lethal_hint" text="En az bu kadar hasar veren son darbe her zaman öldürür, normalde ölemeyen lordları bile." />
+    <string id="fairloot_mcm_player" text="Kahramanına uygula" />
+    <string id="fairloot_mcm_player_hint" text="Kapalıyken kahramanın oyunun standart ölüm kurallarına tabidir ve Fair Loot onu etkilemez." />
+    <string id="fairloot_welcome_ok" text="Anladım" />
+    <string id="fairloot_welcome_body" text="Fair Loot: ganimet onu hak edenlere, ölüm ise açık verenlere.{newline}{newline}• Savaştan sonraki sıradan ganimet azaltılır (varsayılan olarak yarıya): ağırlık arabası sınırsız değil, askerler de yemek ister.{newline}• Bizzat öldürdüğün düşmanların üzerindeki her şey senindir: silah, zırh, at ve koşum takımı. Plaka zırh mı istiyorsun? Sahibinin üstünden kendin çıkar.{newline}• Ölüm son darbeye bağlıdır: zayıf bir darbe kurbanı daha sık hayatta bırakır, güçlü bir darbe daha sık öldürür. {LETHAL} veya daha fazla hasar veren bir darbe, lordlar dahil herkes için ölümcüldür.{newline}• Bayıltılanlar ve müttefiklerin ya da kuşatma aletlerinin öldürdükleri kişisel ganimete sayılmaz: başkalarının kahramanlıkları senin değil.{newline}{newline}Ayarlar: Mod Options → Fair Loot. Acırsan kendi kahramanını bu kurallardan muaf da tutabilirsin.{newline}Ayrıntılar: mod klasörü Modules/FairLoot, README.md dosyası.{newline}{newline}Dürüstçe yağmala. Görkemli öl." />
+    <string id="fairloot_mcm_leave" text="Sahadan çık ve izle" />
+    <string id="fairloot_mcm_leave_hint" text="Kırmızı çizginin ötesinde kahramanın sahadan sağ çıkar; savaş yapay zekâyla sürer, sen izlersin." />
+    <string id="fairloot_left_field" text="Savaş alanından ayrıldın. Savaş yapay zekâ komutasında sürüyor; Tab hızlı ileri sarma ve savaşı bitirme seçenekli skor tablosunu açar." />
+  </strings>
+</base>

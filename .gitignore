@@ -1,0 +1,9 @@
+# Build output (the release zip carries the DLL, the repo carries the source)
+bin/
+obj/
+Source/**/bin/
+Source/**/obj/
+# Local backups and internal notes
+Backup/
+CHANGELOG*.md
+*.zip

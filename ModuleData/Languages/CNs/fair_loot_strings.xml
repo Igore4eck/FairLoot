@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="简体中文" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="其他" />
+    <string id="fairloot_mcm_welcome" text="欢迎信息" />
+    <string id="fairloot_mcm_welcome_hint" text="开始新战役时显示模组简介。" />
+    <string id="fairloot_personal_items" text="因你在战斗中的个人贡献获得的物品：{COUNT}。" />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="战利品" />
+    <string id="fairloot_mcm_loot_share" text="保留的普通战利品" />
+    <string id="fairloot_mcm_loot_share_hint" text="战斗后普通战利品保留的比例。50%表示移除一半物品。你的个人战利品另行添加。" />
+    <string id="fairloot_mcm_personal" text="个人战利品" />
+    <string id="fairloot_mcm_personal_hint" text="胜利后，你会获得亲手杀死的每个敌人的全部装备，包括马匹和马具。击晕、盟友击杀和攻城器械击杀不计入。" />
+    <string id="fairloot_mcm_group_death" text="战斗中的死亡" />
+    <string id="fairloot_mcm_death" text="最后一击决定生死" />
+    <string id="fairloot_mcm_death_hint" text="死亡几率取决于最后一击的伤害：弱击多半只是击晕，强击更常致死。医术和技能仍决定基础几率。" />
+    <string id="fairloot_mcm_lethal" text="必死伤害" />
+    <string id="fairloot_mcm_lethal_hint" text="最后一击达到此伤害时必定致死，即使是通常不会死亡的领主。" />
+    <string id="fairloot_mcm_player" text="对你的英雄生效" />
+    <string id="fairloot_mcm_player_hint" text="关闭时，你的英雄沿用游戏的标准死亡规则，不受 Fair Loot 影响。" />
+    <string id="fairloot_welcome_ok" text="明白了" />
+    <string id="fairloot_welcome_body" text="Fair Loot：战利品归于真正赢得它的人，死亡归于自己送上门的人。{newline}{newline}• 战斗后的普通战利品会被削减（默认减半）：辎重车装不下无限的东西，士兵们也要吃饭。{newline}• 你亲手杀死的敌人身上的一切都归你：武器、护甲、马匹和马具。想要板甲？自己从主人身上扒下来。{newline}• 死亡取决于最后一击：弱击更常让对方活下来，强击更常致死。伤害达到 {LETHAL} 或以上的一击对所有人都是致命的，领主也不例外。{newline}• 击晕以及盟友或攻城器械的击杀不计入个人战利品：别人的功劳不算你的。{newline}{newline}设置：Mod Options → Fair Loot。如果心疼，也可以在那里让你的英雄免受这些规则。{newline}详情：模组文件夹 Modules/FairLoot 中的 README.md。{newline}{newline}公平搜刮，壮烈牺牲。" />
+    <string id="fairloot_mcm_leave" text="离开战场并观战" />
+    <string id="fairloot_mcm_leave_hint" text="越过红线后你的英雄将活着离开战场；战斗由AI继续，你可以观战。" />
+    <string id="fairloot_left_field" text="你已离开战场。战斗在AI指挥下继续；按Tab打开记分板，可快进或结束战斗。" />
+  </strings>
+</base>

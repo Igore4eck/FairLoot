@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="기타" />
+    <string id="fairloot_mcm_welcome" text="환영 메시지" />
+    <string id="fairloot_mcm_welcome_hint" text="새 캠페인을 시작할 때 모드의 간단한 소개를 표시합니다." />
+    <string id="fairloot_personal_items" text="전투에서의 개인 기여로 얻은 아이템: {COUNT}" />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="전리품" />
+    <string id="fairloot_mcm_loot_share" text="남는 일반 전리품" />
+    <string id="fairloot_mcm_loot_share_hint" text="전투 후 일반 전리품이 남는 비율입니다. 50%는 아이템의 절반이 사라진다는 뜻입니다. 개인 전리품은 별도로 추가됩니다." />
+    <string id="fairloot_mcm_personal" text="개인 전리품" />
+    <string id="fairloot_mcm_personal_hint" text="승리하면 직접 죽인 모든 적의 장비 전체를 얻습니다. 말과 마구도 포함됩니다. 기절, 아군의 처치, 공성 병기의 처치는 해당되지 않습니다." />
+    <string id="fairloot_mcm_group_death" text="전투 중 사망" />
+    <string id="fairloot_mcm_death" text="마지막 일격이 생사를 결정" />
+    <string id="fairloot_mcm_death_hint" text="사망 확률은 마지막 일격의 피해량에 따라 달라집니다. 약한 공격은 대개 기절, 강한 공격은 더 자주 죽입니다. 기본 확률은 여전히 의술과 특성이 정합니다." />
+    <string id="fairloot_mcm_lethal" text="확정 사망 피해" />
+    <string id="fairloot_mcm_lethal_hint" text="마지막 일격이 이 피해량 이상이면 항상 죽습니다. 보통은 죽지 않는 영주도 마찬가지입니다." />
+    <string id="fairloot_mcm_player" text="내 영웅에게 적용" />
+    <string id="fairloot_mcm_player_hint" text="끄면 내 영웅에게는 게임 기본 사망 규칙이 적용되며 Fair Loot의 영향을 받지 않습니다." />
+    <string id="fairloot_welcome_ok" text="알겠습니다" />
+    <string id="fairloot_welcome_body" text="Fair Loot: 전리품은 그것을 얻어낸 자에게, 죽음은 빈틈을 보인 자에게.{newline}{newline}• 전투 후 일반 전리품이 줄어듭니다(기본값은 절반). 보급 마차는 무한하지 않고, 병사들도 먹어야 합니다.{newline}• 직접 죽인 적이 걸치고 있던 것은 모두 당신의 것입니다: 무기, 갑옷, 말과 마구. 판금 갑옷이 탐나나요? 주인에게서 직접 벗겨 내십시오.{newline}• 죽음은 마지막 일격에 달려 있습니다. 약한 일격은 상대를 더 자주 살려 두고, 강한 일격은 더 자주 죽입니다. {LETHAL} 이상의 피해를 주는 일격은 영주를 포함해 누구에게나 치명적입니다.{newline}• 기절, 그리고 아군이나 공성 병기가 처치한 적은 개인 전리품에 포함되지 않습니다. 남의 공은 당신의 것이 아닙니다.{newline}{newline}설정: Mod Options → Fair Loot. 안쓰럽다면 그곳에서 당신의 영웅을 이 규칙에서 빼 줄 수도 있습니다.{newline}자세한 내용: 모드 폴더 Modules/FairLoot의 README.md.{newline}{newline}공정하게 약탈하고, 멋지게 죽으십시오." />
+    <string id="fairloot_mcm_leave" text="전장을 떠나 관전" />
+    <string id="fairloot_mcm_leave_hint" text="붉은 선을 넘으면 영웅은 살아서 전장을 떠나고, 전투는 AI로 계속되며 당신은 관전합니다." />
+    <string id="fairloot_left_field" text="전장을 떠났습니다. 전투는 AI 지휘로 계속됩니다. Tab으로 빨리 감기와 전투 종료가 있는 점수판을 엽니다." />
+  </strings>
+</base>

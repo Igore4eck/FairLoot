@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="繁體中文" />
+  </tags>
+  <strings>
+    <string id="fairloot_mcm_group_misc" text="其他" />
+    <string id="fairloot_mcm_welcome" text="歡迎訊息" />
+    <string id="fairloot_mcm_welcome_hint" text="開始新戰役時顯示模組簡介。" />
+    <string id="fairloot_personal_items" text="因你在戰鬥中的個人貢獻獲得的物品：{COUNT}。" />
+    <string id="fairloot_mcm_title" text="Fair Loot" />
+    <string id="fairloot_welcome_title" text="Fair Loot" />
+    <string id="fairloot_mcm_group_loot" text="戰利品" />
+    <string id="fairloot_mcm_loot_share" text="保留的普通戰利品" />
+    <string id="fairloot_mcm_loot_share_hint" text="戰鬥後普通戰利品保留的比例。50%表示移除一半物品。你的個人戰利品另行添加。" />
+    <string id="fairloot_mcm_personal" text="個人戰利品" />
+    <string id="fairloot_mcm_personal_hint" text="勝利後，你會獲得親手殺死的每個敵人的全部裝備，包括馬匹和馬具。擊暈、盟友擊殺和攻城器械擊殺不計入。" />
+    <string id="fairloot_mcm_group_death" text="戰鬥中的死亡" />
+    <string id="fairloot_mcm_death" text="最後一擊決定生死" />
+    <string id="fairloot_mcm_death_hint" text="死亡機率取決於最後一擊的傷害：弱擊多半只是擊暈，強擊更常致死。醫術和技能仍決定基礎機率。" />
+    <string id="fairloot_mcm_lethal" text="必死傷害" />
+    <string id="fairloot_mcm_lethal_hint" text="最後一擊達到此傷害時必定致死，即使是通常不會死亡的領主。" />
+    <string id="fairloot_mcm_player" text="對你的英雄生效" />
+    <string id="fairloot_mcm_player_hint" text="關閉時，你的英雄沿用遊戲的標準死亡規則，不受 Fair Loot 影響。" />
+    <string id="fairloot_welcome_ok" text="明白了" />
+    <string id="fairloot_welcome_body" text="Fair Loot：戰利品歸於真正贏得它的人，死亡歸於自己送上門的人。{newline}{newline}• 戰鬥後的普通戰利品會被削減（預設減半）：輜重車裝不下無限的東西，士兵們也要吃飯。{newline}• 你親手殺死的敵人身上的一切都歸你：武器、護甲、馬匹和馬具。想要板甲？自己從主人身上扒下來。{newline}• 死亡取決於最後一擊：弱擊更常讓對方活下來，強擊更常致死。傷害達到 {LETHAL} 或以上的一擊對所有人都是致命的，領主也不例外。{newline}• 擊暈以及盟友或攻城器械的擊殺不計入個人戰利品：別人的功勞不算你的。{newline}{newline}設定：Mod Options → Fair Loot。如果心疼，也可以在那裡讓你的英雄免受這些規則。{newline}詳情：模組資料夾 Modules/FairLoot 中的 README.md。{newline}{newline}公平搜刮，壯烈犧牲。" />
+    <string id="fairloot_mcm_leave" text="離開戰場並觀戰" />
+    <string id="fairloot_mcm_leave_hint" text="越過紅線後你的英雄將活著離開戰場；戰鬥由AI繼續，你可以觀戰。" />
+    <string id="fairloot_left_field" text="你已離開戰場。戰鬥在AI指揮下繼續；按Tab打開記分板，可快進或結束戰鬥。" />
+  </strings>
+</base>
