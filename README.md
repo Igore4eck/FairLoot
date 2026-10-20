@@ -12,11 +12,15 @@ By **Igore4eck** (Ihor Prokofiev). Download: [Nexus Mods](https://www.nexusmods.
 
 In the base game the loot screen is a lottery. You can hide behind your shield wall all battle and still walk away with a noble's lamellar, while the man you unhorsed and cut down yourself leaves you nothing. Whether a fallen soldier dies or is only knocked out does not depend on the blow at all: a dagger scratch and a couched lance at full gallop get the same roll of the dice.
 
+> *Why this mod exists:* I hit a man for 50+ damage and he was only wounded; I poked another for 3 and he died. That drove me mad. In Fair Loot, the blow decides.
+
 Fair Loot changes both:
 
 - **Your kills are yours.** Everything worn by an enemy you killed with your own hand (weapons, armor, the horse and its harness) goes to you after a victory. If you want plate, take it off its owner yourself.
 - **The baggage train is not bottomless.** The ordinary pile of post-battle loot is cut, by default in half: your soldiers grab their share, things get broken, lost or left behind.
 - **The blow decides.** A weak final blow usually leaves the victim alive. A heavy one kills more often. A truly crushing one (100 damage by default) kills anybody, lords included.
+
+Not just "keep what you kill": loot, death and retreat all follow what you actually did on the field.
 
 Nothing is added to the world: no new items, no new troops, no save data. The mod only changes how the game hands out what is already there.
 
@@ -141,6 +145,7 @@ Fair Loot adds a few rules the base game does not have. Each of them can be turn
 
 - **RBM (Realistic Battle Mod):** works with RBM 4.5.x (Fair Loot touches nothing RBM changes). RBM's heavier blows mean more fatal hits; if that is too much, raise *Certain-death damage*.
 - **Other loot mods:** Fair Loot reduces the loot at the moment the game collects it. Loot that another mod adds *after* that moment is not cut.
+- **Other personal-loot mods** (for example *You Keep What You Kill*): do not combine them, or the gear of your kills is added twice. If you want to keep the other one, turn off *Personal loot* in Fair Loot.
 - **Mods that replace the "killed or knocked out" model:** Fair Loot wraps the model registered before it. A mod loaded later that replaces the same model can switch the death curve off. Load Fair Loot after such mods.
 - **Saves:** no save data. Safe to add or remove mid-campaign.
 
