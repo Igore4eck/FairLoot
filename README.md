@@ -145,7 +145,7 @@ Fair Loot adds a few rules the base game does not have. Each of them can be turn
 
 - **RBM (Realistic Battle Mod):** works with RBM 4.5.x (Fair Loot touches nothing RBM changes). RBM's heavier blows mean more fatal hits; if that is too much, raise *Certain-death damage*.
 - **Other loot mods:** Fair Loot reduces the loot at the moment the game collects it. Loot that another mod adds *after* that moment is not cut.
-- **Other personal-loot mods** (for example *You Keep What You Kill*): do not combine them, or the gear of your kills is added twice. If you want to keep the other one, turn off *Personal loot* in Fair Loot.
+- **Already using *You Keep What You Kill* or another personal-loot mod?** Keep it: turn off *Personal loot* in Fair Loot (otherwise your kills' gear comes twice) and you still get the final-blow death curve and leaving the field. If the loot then feels thin, set *Ordinary loot kept* to 100%.
 - **Mods that replace the "killed or knocked out" model:** Fair Loot wraps the model registered before it. A mod loaded later that replaces the same model can switch the death curve off. Load Fair Loot after such mods.
 - **Saves:** no save data. Safe to add or remove mid-campaign.
 
