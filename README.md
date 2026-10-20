@@ -20,7 +20,7 @@ Fair Loot changes both:
 - **The baggage train is not bottomless.** The ordinary pile of post-battle loot is cut, by default in half: your soldiers grab their share, things get broken, lost or left behind.
 - **The blow decides.** A weak final blow usually leaves the victim alive. A heavy one kills more often. A truly crushing one (100 damage by default) kills anybody, lords included.
 
-Not just "keep what you kill": loot, death and retreat all follow what you actually did on the field.
+Not just "keep what you kill": loot, death and retreat all follow what you actually did on the field. No second dice roll: a kill always pays. The only roll is death itself, and your blow, medicine and perks shape it.
 
 Nothing is added to the world: no new items, no new troops, no save data. The mod only changes how the game hands out what is already there.
 
