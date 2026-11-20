@@ -18,7 +18,8 @@ internal sealed class FairLootWelcomeBehavior : CampaignBehaviorBase
 
     public override void RegisterEvents()
     {
-        CampaignEvents.OnCharacterCreationIsOverEvent.AddNonSerializedListener(this, () => _pending = FairLootOptions.ShowWelcome);
+        CampaignEvents.OnCharacterCreationIsOverEvent.AddNonSerializedListener(this, step => { if (step == 9) _pending = FairLootOptions.ShowWelcome; });
+
         CampaignEvents.TickEvent.AddNonSerializedListener(this, _ => TryShow());
     }
 

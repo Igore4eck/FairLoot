@@ -2,7 +2,7 @@
 
 *The spoils go to those who earned them, and death to those who asked for it.*
 
-A small single-player mod for **Mount & Blade II: Bannerlord 1.4.8**. The base game leaves two things to chance, and Fair Loot ties both to what actually happened on the field: **what you take home** after a battle, and **who dies** in it.
+A small single-player mod for **Mount & Blade II: Bannerlord 1.5.7**. The base game leaves two things to chance, and Fair Loot ties both to what actually happened on the field: **what you take home** after a battle, and **who dies** in it.
 
 By **Igore4eck** (Ihor Prokofiev). Download: [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14144) · Source: [github.com/Igore4eck/FairLoot](https://github.com/Igore4eck/FairLoot). Українська версія: [README_UK.md](README_UK.md).
 
@@ -28,7 +28,7 @@ Nothing is added to the world: no new items, no new troops, no save data. The mo
 
 ## Requirements
 
-- Bannerlord **1.4.8** (single player, campaign).
+- Bannerlord **1.5.7** (single player, campaign; War Sails optional).
 - **[Mod Configuration Menu v5](https://www.nexusmods.com/mountandblade2bannerlord/mods/612)** (MCM) and the libraries it needs: Harmony, ButterLib, UIExtenderEx. Fair Loot itself does not use Harmony.
 
 No other mods are needed. Fair Loot does not depend on RBM or any overhaul, but works with them (see *Compatibility*).
@@ -59,7 +59,7 @@ During a battle Fair Loot records every enemy **killed by your hero personally**
 
 - all weapon slots, helmet, body armor, gloves, boots, cape, **horse and harness**;
 - with their item modifiers: a rusty sword stays rusty, a masterwork one stays masterwork;
-- banners, quest items and items that cannot be traded are skipped.
+- banners, quest items and items that cannot be traded are skipped, except harnesses: a unique barding (a legendary one, a war elephant's royal armor) is yours too. Mounts that cannot be traded (a war elephant) stay on the field.
 
 What does **not** count:
 
@@ -143,7 +143,8 @@ Fair Loot adds a few rules the base game does not have. Each of them can be turn
 
 ## Compatibility
 
-- **RBM (Realistic Battle Mod):** works with RBM 4.5.x (Fair Loot touches nothing RBM changes). RBM's heavier blows mean more fatal hits; if that is too much, raise *Certain-death damage*.
+- **RBM (Realistic Battle Mod):** works with RBM 4.8.1 (Fair Loot touches nothing RBM changes). RBM's heavier blows mean more fatal hits; if that is too much, raise *Certain-death damage*.
+- **Battle sites (1.5.7):** loot you gather from a battle site or wreckage on the map is not cut; Fair Loot only touches loot after your own battles.
 - **Other loot mods:** Fair Loot reduces the loot at the moment the game collects it. Loot that another mod adds *after* that moment is not cut.
 - **Already using *You Keep What You Kill* or another personal-loot mod?** Keep it: turn off *Personal loot* in Fair Loot (otherwise your kills' gear comes twice) and you still get the final-blow death curve and leaving the field. If the loot then feels thin, set *Ordinary loot kept* to 100%.
 - **Mods that replace the "killed or knocked out" model:** Fair Loot wraps the model registered before it. A mod loaded later that replaces the same model can switch the death curve off. Load Fair Loot after such mods.

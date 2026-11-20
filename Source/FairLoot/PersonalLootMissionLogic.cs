@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.MapEvents;
+using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
@@ -45,6 +47,7 @@ internal sealed class PersonalLootMissionLogic : MissionLogic
             !IsPlayer(affectorAgent) || !affectedAgent.IsHuman ||
             affectedAgent.Team == null || affectorAgent.Team == null ||
             !affectorAgent.Team.IsEnemyOf(affectedAgent.Team) ||
+            !IsOnEnemySide(affectedAgent) ||
             siegeHit || IsSiegeProjectile((WeaponClass)killingBlow.WeaponClass))
         {
             return;
@@ -59,7 +62,10 @@ internal sealed class PersonalLootMissionLogic : MissionLogic
         for (int slot = 0; slot < 12; slot++)
         {
             EquipmentElement item = equipment[(EquipmentIndex)slot];
-            if (item.Item != null && !item.Item.NotMerchandise &&
+            // Items that cannot be traded are skipped, except a harness: a
+            // unique barding (a legendary one, a war elephant's royal armor)
+            // is taken off its rider like any other. Such mounts stay out.
+            if (item.Item != null && (!item.Item.NotMerchandise || item.Item.Type == ItemObject.ItemTypeEnum.HorseHarness) &&
                 !item.IsQuestItem && !item.Item.IsBannerItem)
             {
                 _session.Add(item);
@@ -80,6 +86,19 @@ internal sealed class PersonalLootMissionLogic : MissionLogic
 
     private static bool IsPlayer(Agent? agent) =>
         agent != null && agent.IsHuman && agent.Character == Hero.MainHero.CharacterObject;
+
+    // The team check alone let a thrown weapon loot the player's own troops,
+    // so the victim's party must also stand on the other side of the map event.
+    private static bool IsOnEnemySide(Agent victim)
+    {
+        MapEventSide? playerSide = PartyBase.MainParty.MapEventSide;
+        if (victim.Origin?.BattleCombatant is not PartyBase party || playerSide == null)
+        {
+            return true;
+        }
+        MapEventSide? victimSide = party.MapEventSide;
+        return victimSide != null && victimSide.MissionSide != playerSide.MissionSide;
+    }
 
     private static bool IsSiegeProjectile(WeaponClass weaponClass) =>
         weaponClass == WeaponClass.BallistaStone ||
