@@ -143,7 +143,7 @@ Fair Loot adds a few rules the base game does not have. Each of them can be turn
 
 ## Compatibility
 
-- **RBM (Realistic Battle Mod):** works with RBM 4.8.1 (Fair Loot touches nothing RBM changes). RBM's heavier blows mean more fatal hits; if that is too much, raise *Certain-death damage*.
+- **RBM (Realistic Battle Mod):** not required; works alongside it (Fair Loot touches nothing RBM changes). RBM's heavier blows mean more fatal hits; if that is too much, raise *Certain-death damage*.
 - **Battle sites (1.5.7):** loot you gather from a battle site or wreckage on the map is not cut; Fair Loot only touches loot after your own battles.
 - **Other loot mods:** Fair Loot reduces the loot at the moment the game collects it. Loot that another mod adds *after* that moment is not cut.
 - **Already using *You Keep What You Kill* or another personal-loot mod?** Keep it: turn off *Personal loot* in Fair Loot (otherwise your kills' gear comes twice) and you still get the final-blow death curve and leaving the field. If the loot then feels thin, set *Ordinary loot kept* to 100%.
